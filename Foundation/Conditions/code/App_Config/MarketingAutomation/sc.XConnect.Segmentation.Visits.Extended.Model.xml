@@ -1,0 +1,34 @@
+<Settings>
+  <Sitecore>
+    <XConnect>
+      <Services>
+        <DescriptorLocator>
+          <Options>
+            <PredicateDescriptors>
+              <PageEventMatchesBetween>
+                <id>{015EED17-0E56-4DB0-802C-5705D1CB8AD7}</id>
+                <type>Foundation.Conditions.Segmentation.PageEventMatchesBetween, Foundation.Conditions.Segmentation</type>
+              </PageEventMatchesBetween>
+                <PageEventMatchesInPast>
+                    <id>{05F98143-62B3-416A-A98D-E632F59B17B4}</id>
+                    <type>Foundation.Conditions.Segmentation.PageVisitedInThePast, Foundation.Conditions.Segmentation</type>
+                </PageEventMatchesInPast>
+                <ContactProfileKeyMatch>
+                    <id>{4819FD18-1942-4778-A15E-AACDA6B7D8D9}</id>
+                    <type>Foundation.Conditions.Segmentation.ProfileKeyMatches, Foundation.Conditions.Segmentation</type>
+                </ContactProfileKeyMatch>
+                <ContactProfileCardMatch>
+                    <id>{2CDB9047-51A9-4B5D-B838-CD7BADD4A818}</id>
+                    <type>Foundation.Conditions.Segmentation.PatternCardMatches, Foundation.Conditions.Segmentation</type>
+                </ContactProfileCardMatch>
+                <ContactLastInteractionProfileKeyMatch>
+                    <id>{B50DDC0C-40A4-4F8C-AA08-E124A9C010B6}</id>
+                    <type>Foundation.Conditions.Segmentation.ProfileKeyChangedByValue, Foundation.Conditions.Segmentation</type>
+                </ContactLastInteractionProfileKeyMatch>
+            </PredicateDescriptors>
+          </Options>
+        </DescriptorLocator>
+      </Services>
+    </XConnect>
+  </Sitecore>
+</Settings>
